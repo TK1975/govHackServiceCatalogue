@@ -1,5 +1,5 @@
 # Service Catalogue
-This is an catalogue of government services. It is intended that this catalogue be used to assist in the development of tools and software to assist the public in discovering and accessing government services and information, however further alternative - perhaps unconsidered - uses are encouraged.
+This is a catalogue of government services. It is intended that this catalogue be used to assist in the development of tools and software to assist the public in discovering and accessing government services and information, however further alternative - perhaps unconsidered - uses are encouraged.
 
 Currently the information is being edited directly as JSON text files. While it is expected the JSON text file representation will continue, tools to assist users in creating the information are being developed.
 
@@ -13,7 +13,7 @@ In addition to this the information is known to be incomplete and so is presente
 
 
 #Structure
-The service catalogue is managed as a directed graph where nodes represent an aspect of service delivery which an organisation wants to represent and the edges represent the the relationship between those aspects.
+The service catalogue is managed as a directed graph where nodes represent an aspect of service delivery which an organisation wants to represent and the edges represent the relationship between those aspects.
 Each node is one several __node classes__, these classes are extended as needed by each organisation. They are:
 * Organisation
 * Service
